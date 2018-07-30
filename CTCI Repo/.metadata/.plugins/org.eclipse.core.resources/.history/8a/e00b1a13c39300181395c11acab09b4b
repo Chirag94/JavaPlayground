@@ -11,12 +11,12 @@ public class Chapter1 {
 		// TODO Auto-generated method stub
 
 		System.out.println(Question1( "chirag"));
-		System.out.println(Question2("asd","das"));
+		System.out.println(Question2("ram","grachi"));
 		
 	}
 
 	private static Boolean Question2(String input1, String input2) {
-		// TODO check if input1 is a permutation of input2 or not
+		// TODO check if input1 is a palindrome of input2 or not
 		if(input1.length()==input2.length()) {
 			char[] ch1= input1.toCharArray();
 			char[] ch2= input2.toCharArray();

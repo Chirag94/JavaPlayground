@@ -11,24 +11,23 @@ public class Chapter1 {
 		// TODO Auto-generated method stub
 
 		System.out.println(Question1( "chirag"));
-		System.out.println(Question2("asd","das"));
+		System.out.println(Question2("chirag","grachi"));
 		
 	}
 
 	private static Boolean Question2(String input1, String input2) {
-		// TODO check if input1 is a permutation of input2 or not
+		// TODO check if input1 is a palindrome of input2 or not
 		if(input1.length()==input2.length()) {
-			char[] ch1= input1.toCharArray();
-			char[] ch2= input2.toCharArray();
-			Arrays.sort(ch1);
-			Arrays.sort(ch2);
-			for(int i=0;i<ch1.length;i++ ) {
-				if(ch1[i]==ch2[i])continue;
-				else return false;
-			}
-			return true;
+			Arrays.sort(input1.toCharArray());
+			Arrays.sort(input2.toCharArray());
+			System.out.println(input1);
+			/*for(int i=0;i<input1.length();i++ ) {
+				if(input1[i]==input2[i])
+			
+			}*/
 		}
-		return false;
+		
+		return true;
 	}
 
 	private static Boolean Question1(String input) {
