@@ -11,7 +11,7 @@ public class Chapter1 {
 		// TODO Auto-generated method stub
 
 		System.out.println(Question1( "chirag"));
-		System.out.println(Question2("chirag","grachi"));
+		System.out.println(Question2("chirag","garachi"));
 		
 	}
 
