@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+E:\playground\Java\CTCI Repo\.metadata\.plugins\org.eclipse.jdt.core
+1027545414.index
+3996102163.index

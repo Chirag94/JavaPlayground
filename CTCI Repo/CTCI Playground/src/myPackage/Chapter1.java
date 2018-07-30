@@ -1,0 +1,43 @@
+package myPackage;
+
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Chapter1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println(Question1( "chirag"));
+		
+	}
+
+	private static Boolean Question1(String input) {
+		for(int i=0;i<input.length();i++) {
+			for(int j=i+1;j<input.length();j++) {
+				if(input.charAt(i)==input.charAt(j))return false;
+			}
+		}
+		return true;
+		/*
+		
+		Set<Character> set=new TreeSet<>();
+		for (Character i : input.toCharArray()) {
+			set.add(i);
+		}
+		if(set.size()==input.length()) return true;
+		else return false;
+		//This is a different approach where without the use of additional DS we can perform the computation in O(n) time
+		//Check out Geeks for Geeks for reference
+		int checkcBit=0;
+		for(int i=0;i<input.length();i++) {
+			int index=input.charAt(i)-'a';
+			if((checkcBit&1<<index)>0)return false;
+			checkcBit=checkcBit|1<<index;
+		}
+		return true;
+		*/
+		
+	}
+
+}

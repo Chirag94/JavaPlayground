@@ -1,0 +1,21 @@
+package myPackage;
+
+public class Chapter1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println(Question1( "chirag"));
+	}
+
+	private static Boolean Question1(String input) {
+		// TODO Auto-generated method stub
+		for(int i=0;i<input.length();i++) {
+			for(int j=i+1;j<input.length();j++) {
+				if(input.charAt(i)==input.charAt(j))return false;
+			}
+		}
+		return true;
+	}
+
+}
