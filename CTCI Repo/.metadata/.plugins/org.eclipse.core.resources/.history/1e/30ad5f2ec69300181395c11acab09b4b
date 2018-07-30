@@ -10,8 +10,8 @@ public class Chapter1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//System.out.println(Question1( "chirag"));
-		System.out.println(Question2("chirag","grachi"));
+		System.out.println(Question1( "chirag"));
+		System.out.println(Question2("chiiii","grachi"));
 		
 	}
 
@@ -30,9 +30,8 @@ public class Chapter1 {
 			test[input1.charAt(i)]++;
 			test[input2.charAt(i)]--;
 		}
-		for (int i : test) {
-			if(i!=0) return false;
-		}	
+		Arrays.
+		
 		return true;
 	
 	}

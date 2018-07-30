@@ -10,8 +10,8 @@ public class Chapter1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//System.out.println(Question1( "chirag"));
-		System.out.println(Question2("chirag","grachi"));
+		System.out.println(Question1( "chirag"));
+		System.out.println(Question2("chiiii","grachi"));
 		
 	}
 
@@ -32,7 +32,8 @@ public class Chapter1 {
 		}
 		for (int i : test) {
 			if(i!=0) return false;
-		}	
+		}
+		
 		return true;
 	
 	}
